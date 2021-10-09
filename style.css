@@ -44,10 +44,9 @@ body{
     margin-top: 45px;
     height: 500px;
     width: 300px;
-    border: 1px solid red;
     border-radius: 20px;
     overflow: hidden;
-    background:hsl(225, 100%, 98%)
+    background:hsl(225, 100%, 98%);
 }
 
 .container img {
@@ -103,5 +102,18 @@ body{
 }
 
 .pay-submit {
-    
+    margin: 0 auto;
+    width: 50%;
+    padding: 2% 15%;
+    border-radius: 10px;
+    background:  hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 0 3px 3px 2px hsl(255, 100%, 90%);
+}
+
+.cancel {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+    color: hsl(255, 20%, 40%)
 }
