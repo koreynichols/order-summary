@@ -65,7 +65,7 @@ body{
 .container p {
     color: hsl(224, 23%, 55%);
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0 10%;
     line-height: 1.5em;
 }
@@ -75,5 +75,31 @@ body{
     margin: 0 10%;
     height: 60px;
     border-radius: 10px;
+    background: hsl(225, 100%, 99%);
+    font-size: 16px;
+}
+
+.plan {
+    display: inline-block;
+    margin-top: 3%;
+    font-weight: 600;
+}
+
+.cost {
+    color: hsl(224, 23%, 55%);
+}
+
+.order-display a {
+    float: right;
+    margin-right: 10px;
+}
+
+.music-symbol {
+    height: 25px;
+    width: 25px;
     background: hsl(225, 100%, 94%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
